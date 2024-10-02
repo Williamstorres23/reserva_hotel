@@ -2,6 +2,8 @@
 
 Este é um simples sistema de reservas de hotel em C, que permite gerenciar reservas, exibindo preços automaticamente com base no número de pessoas e diárias.
 
+## 🚀 Video do Youtube explicando as funcionalidades do sistema feito: https://youtu.be/zudhRkaNdL0
+
 ## 🚀 Funcionalidades
 
 - **📅 Inserir Reserva**: Permite adicionar uma nova reserva com ID único, nome do cliente, data, número de pessoas e diárias. Calcula automaticamente o valor total da reserva.
