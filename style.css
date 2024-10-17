@@ -1,0 +1,64 @@
+/* style.css */
+
+/* Define a fonte padrão para toda a aplicação */
+window, box, label, entry, button, treeview {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+}
+
+/* Estiliza a barra de menu */
+.menu-bar {
+    background-color: #000000; /* Preto */
+}
+
+.menu-bar menuitem {
+    color: #00FF00; /* Verde */
+    padding: 5px 10px;
+}
+
+.menu-bar menuitem:hover {
+    background-color: #00CC00; /* Verde mais escuro no hover */
+}
+
+/* Estiliza a TreeView */
+treeview {
+    background-color: #FFFFFF; /* Fundo Branco */
+    color: #000000; /* Letras Pretas */
+}
+
+treeview column header {
+    background-color: #00FF00; /* Verde */
+    color: #000000; /* Preto */
+    font-weight: bold;
+    padding: 5px;
+}
+
+treeview row:hover {
+    background-color: #F0F0F0; /* Cinza claro para hover */
+}
+
+/* Botões */
+button {
+    background-color: #00FF00; /* Verde */
+    color: #000000; /* Preto */
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+}
+
+button:hover {
+    background-color: #00CC00; /* Verde mais escuro no hover */
+}
+
+/* Diálogos */
+dialog {
+    background-color: #FFFFFF; /* Fundo Branco */
+}
+
+button.close-button {
+    background-color: #C0392B; /* Vermelho para botões de fechar */
+}
+
+button.close-button:hover {
+    background-color: #A93226; /* Vermelho mais escuro no hover */
+}
